@@ -12,6 +12,14 @@ sin ti, pero con mas luz.
   - [x] comprar leche
   - [ ] comprar atun
 
+## tablas basicas
+ first header | second header
+  ------------ | -------------
+  cell 1 | cell 2
+  cell a | cell b
+  
+## citas
+
 > las cosas mas bonitas le pasan 
 > a las personas mas bonitas - Satanas
 
