@@ -5,6 +5,8 @@ las noches que paso sin ti
 son como los dias que paso  
 sin ti, pero con mas luz.  
 
+> las cosas mas bonitas le pasan 
+> a las personas mas bonitas - Satanas
 
 ## Contenido
 - GIT
