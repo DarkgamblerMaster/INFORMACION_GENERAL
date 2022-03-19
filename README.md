@@ -31,3 +31,5 @@ Esta es una lista numerada
 
 ## Contenido
 Si quieres ir a google marcar: [Link Google](https://www.google.com/)
+
+![infierno](https://i1.wp.com/elitediario.com/wp-content/uploads/2020/01/ED-infierno.jpg?resize=960%2C541&ssl=1)
