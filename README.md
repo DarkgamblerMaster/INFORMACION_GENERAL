@@ -30,5 +30,4 @@ Esta es una lista numerada
 3. Lora
 
 ## Contenido
-- GIT
-- LATEX
+Si quieres ir a google marcar: [Link Google](https://www.google.com/)
