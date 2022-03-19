@@ -8,6 +8,10 @@ sin ti, pero con mas luz.
 ## Codigo 
 ```print( "hola Mundo" )```
 
+## Cuadros de chek
+  -[x] comprar leche
+  -[ ] comprar atun
+
 > las cosas mas bonitas le pasan 
 > a las personas mas bonitas - Satanas
 
