@@ -57,3 +57,31 @@ O bien lo podemos ver en la terminal:
 \begin{lstlisting}[numbers=none]
   git config --global --list
 \end{lstlisting}
+
+\section{Cap\'itulo 2: Crear un repositorio}
+
+Las siguientes son las instrucciones para crear un repositorio:
+
+
+\begin{lstlisting}[numbers=none]
+  echo "cualquier texto para el readme" >> README.md
+  git init
+  git add README.md
+  git commit -m "first commit"
+  git remote add origin <url_repositorio_github>
+  git push -u origin master
+\end{lstlisting}
+
+git init se puede inicializar en un directorio agregando simplemente el nombre del directorio que se quiere crear
+
+
+\begin{lstlisting}[numbers=none]
+  git init <NOMBRE_dIRECTORIO>
+\end{lstlisting}
+
+Si se desea agregar todo lo que hay se puede usar el comando add de la siguiente manera
+
+
+\begin{lstlisting}[numbers=none]
+  git add .
+\end{lstlisting}
