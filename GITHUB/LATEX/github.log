@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.23)  19 MAR 2022 07:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.23)  19 MAR 2022 07:59
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -790,10 +790,10 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) [1] (./github.aux) ) 
 Here is how much of TeX's memory you used:
- 30817 strings out of 483140
- 757231 string characters out of 5965150
- 1265365 words of memory out of 5000000
- 45345 multiletter control sequences out of 15000+600000
+ 30826 strings out of 483140
+ 757324 string characters out of 5965150
+ 1268365 words of memory out of 5000000
+ 45354 multiletter control sequences out of 15000+600000
  540979 words of font info for 37 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  71i,5n,100p,1195b,1166s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -807,7 +807,7 @@ pk/ljfour/jknappen/ec/ecbx2074.600pk> </home/darkgambler/.texlive2019/texmf-var
 /fonts/pk/ljfour/jknappen/ec/eccc1440.600pk> </home/darkgambler/.texlive2019/te
 xmf-var/fonts/pk/ljfour/jknappen/ec/ecxc1728.600pk></usr/share/texlive/texmf-di
 st/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on github.pdf (2 pages, 45118 bytes).
+Output written on github.pdf (2 pages, 45172 bytes).
 PDF statistics:
  151 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
