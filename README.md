@@ -8,6 +8,22 @@ sin ti, pero con mas luz.
 > las cosas mas bonitas le pasan 
 > a las personas mas bonitas - Satanas
 
+Esta es una lista con asterisco
+* Perro
+* Gato
+* Lora
+* Tortuga
+
+Esta es una lista con simbolo de mas
++ PERRO
++ GATO
++ LORA
+
+Esta es una lista con simbolo de menos o guion
+- Perro
+- Gato
+- Lora
+
 ## Contenido
 - GIT
 - LATEX
