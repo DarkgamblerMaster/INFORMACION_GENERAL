@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.23)  19 MAR 2022 07:37
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.23)  19 MAR 2022 08:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -786,16 +786,16 @@ LaTeX Font Info:    Trying to load font information for T1+pcr on input line 5.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-(./secciones/CODES/lst1))) (./latex.bbl
+(./secciones/CODES/lst1) (./secciones/CODES/lst2))) (./latex.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) [1] (./latex.aux) ) 
 Here is how much of TeX's memory you used:
- 30818 strings out of 483140
- 757349 string characters out of 5965150
- 1260363 words of memory out of 5000000
- 45343 multiletter control sequences out of 15000+600000
+ 30828 strings out of 483140
+ 757481 string characters out of 5965150
+ 1265364 words of memory out of 5000000
+ 45350 multiletter control sequences out of 15000+600000
  540979 words of font info for 37 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  71i,5n,100p,1194b,1117s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -809,9 +809,9 @@ k/ljfour/jknappen/ec/ecbx2074.600pk> </home/darkgambler/.texlive2019/texmf-var/
 fonts/pk/ljfour/jknappen/ec/eccc1440.600pk> </home/darkgambler/.texlive2019/tex
 mf-var/fonts/pk/ljfour/jknappen/ec/ecxc1728.600pk></usr/share/texlive/texmf-dis
 t/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on latex.pdf (2 pages, 43411 bytes).
+Output written on latex.pdf (2 pages, 44904 bytes).
 PDF statistics:
- 143 PDF objects out of 1000 (max. 8388607)
+ 146 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)

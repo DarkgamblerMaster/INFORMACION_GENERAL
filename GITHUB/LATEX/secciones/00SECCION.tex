@@ -1,19 +1,59 @@
 \section{Capítulo 1: Configuraciones}
 De la siguiente manera se configura el usuario y el email en nuestro entorno git:
 
-\begin{lstlisting}
+\begin{lstlisting}[numbers=none]
   git config --global user.name "username"
   git config --global user.email "email"
 \end{lstlisting}
 
 Para poder ver los valores ya configurados en el entorno se escribe el siguiente comando:
 
-\begin{lstlisting}
+\begin{lstlisting}[numbers=none]
   git config --global -l
 \end{lstlisting}
 
 Para configurar el end of file se usa el siguiente comando
 
-\begin{lstlisting}
+\begin{lstlisting}[numbers=none]
   git config --global core.autocrlf true
+\end{lstlisting}
+
+Para agregar credenciales al cache, primero se necesita hacer un push con lo que se solicitar\'a el username y el token como password, luego de que se hizo el push correctamente se debe escribir:
+
+
+\begin{lstlisting}[numbers=none]
+  git config --global credential.helper cache
+\end{lstlisting}
+
+si estamos en entorno windows entonces se debe escribir lo siguiente:
+
+
+\begin{lstlisting}[numbers=none]
+  git config --global credential.helper wincred
+\end{lstlisting}
+
+Con el siguiente c\'odigo se pueden agregar alias, que sirven para sustituir texto de comandos git con el fin de no escribir tanto, por ejemplo si queremos acortar commit -m con el nombre com:
+
+
+\begin{lstlisting}[numbers=none]
+  git config --global alias.com "commit -m"
+\end{lstlisting}
+
+Para borrar el alias que anteriormente creamos simplemente escribimos:
+
+\begin{lstlisting}[numbers=none]
+  git config --global --unset alias.com
+\end{lstlisting}
+
+Si se desea ver las configuraciones hechas en el git, as\'i como los alias y otras informaciones podemos abrir el archivo de configuraciones en emacs u otro
+
+\begin{lstlisting}[numbers=none]
+  emacs ~/.gitconfig
+\end{lstlisting}
+
+O bien lo podemos ver en la terminal:
+
+
+\begin{lstlisting}[numbers=none]
+  git config --global --list
 \end{lstlisting}
