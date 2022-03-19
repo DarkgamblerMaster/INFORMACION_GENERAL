@@ -5,6 +5,22 @@ las noches que paso sin ti
 son como los dias que paso  
 sin ti, pero con mas luz.  
 
+## Codigo 
+```print( "hola Mundo" )```
+
+## Cuadros de chek
+  - [x] comprar leche
+  - [ ] comprar atun
+
+## tablas basicas
+ first header | second header
+  ------------ | -------------
+  cell 1 | cell 2
+  cell a | cell b
+  sumas | restas
+  
+## citas
+
 > las cosas mas bonitas le pasan 
 > a las personas mas bonitas - Satanas
 
