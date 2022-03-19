@@ -1,0 +1,19 @@
+\begin{titlepage}
+	\centering
+	
+	{\scshape\LARGE \textbf{UNIVERSIDAD DE COSTA RICA} \par}
+	\vspace{1cm}
+	{\scshape\Large NOTAS SYSTEMVERILOG\par}
+	\vspace{1.5cm}
+	{\huge\bfseries \textcolor{azulSection}{SystemVerilog Notas}\par}
+	\vspace{2cm}
+	       {\Large\itshape Freddy Z\'uñiga Cerdas \\ A45967\par}
+	\vfill
+	Profesor\par
+	WALTER WHITE
+
+	\vfill
+
+% Bottom of the page
+	{\large \today\par}
+\end{titlepage}

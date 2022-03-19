@@ -1,0 +1,152 @@
+@Article{gaceta2016,
+  title   = {Supervisión de la comercialización del suministro eléctrico en
+baja y media tensión, Resolución RJD-030-2016 de las 15:50 horas del 18 de febrero de 2016},
+  journal = {Gaceta},
+  year    = {2016-02-23},
+  pages   = {20},
+  url = {https://aresep.go.cr/normativa/1392-normativa-tecnica-nacional}
+}
+
+
+@book{harrysharrys,
+  title={Digital Design and Computer Architecture RISC-V Edition},
+  author={Harris, S and Harris, D},
+  year={2021},
+  publisher={Morgan Kaufmann}
+}
+
+
+@book{pattersonriscv,
+  title={Guía práctica de RISC-V: el atlas de una arquitectura abierta},
+  author={Patterson, D. and Waterman, A.},
+  isbn={9780999249123},
+  year={2017},
+  publisher={[Berkeley, California] : Strawberry Canyon LLC}
+}
+
+@misc{4w,
+  author  = {Florida State University},
+  title   = { Large and Fast: Exploiting Memory Hierarchy},
+  journal = {Florida State University},
+  year    = {2019},
+  url = {https://www.cs.fsu.edu/~hawkes/cda3101lects/chap7/F7.19.html}
+}
+
+@misc{pipedef,
+  title   = {MODELO DE ARQUITECTURA PIPELINE},
+  journal = {ETools},
+  year    = {2018-04-18},
+  url = {https://www.electrontools.com/Home/WP/modelo-de-arquitectura-pipeline/}
+}
+
+@misc{cc,
+  title   = {Introduction to cross-compiling for Linux},
+  journal = {Landley},
+  year    = {s.f},
+  url = {https://landley.net/writing/docs/cross-compiling.html}
+}
+
+@misc{datapath,
+  title   = {Segmentación del ciclo de instrucción},
+  journal = {Electro Física UNLP},
+  year    = {s.f},
+  url = {http://electro.fisica.unlp.edu.ar/arq/transparencias/ARQII\_02-Segmentacion-2014.pdf}
+}
+@Article{saran,
+  author = {Saran Chaladying},
+  title   = {Configuration of Alternating Current Capacitor for Power Factor Correction in Power Network at the various voltage level},
+  journal = {Asefa Public Company Limited},
+  url = {https://www.academia.edu/23087522/}
+}
+
+
+@book{patterson2020computer,
+  title={Computer Organization and Design RISC-V Edition: The Hardware Software Interface},
+  author={Patterson, D. and Hennessy, J.L.},
+  isbn={9780128245583},
+  year={2020},
+  publisher={Elsevier Science}
+}
+
+
+@book{hayt2012,
+  title={An\'alisis de Circuitos en Ingenier\'ia},
+  author={William H. Hayt and Jack E. Kemmerly and Steven M. Durbin},
+  year={2012},
+  publisher={McGraw Hill Education}
+}
+
+@book{bogatin2018,
+  title={Signal and Power Integrity Simplified},
+  author={Eric Bogatin},
+  year={2018},
+  publisher={Pearson Education, Inc}
+}
+
+@book{hayt2012,
+  title={An\'alisis de Circuitos en Ingenier\'ia},
+  author={William H. Hayt and Jack E. Kemmerly and Steven M. Durbin},
+  year={2012},
+  publisher={McGraw Hill Education}
+}
+
+
+@book{fitzgerald2014,
+	author = {Fitzgerald, A. E. and Kingsley, Charles. and Umans Stephen},
+	title = {Fitzgerald \& Kingsley’s Electric Machinery},
+	publisher = {McGraw-Hill},
+	year = {2014},
+	address = {New York},
+	edition = {7th ed.},
+}
+
+@book{chapman2012,
+	author = {Chapman, S.J.},
+	title = {Electric Machinary Fundamentals},
+	publisher = {McGraw-Hill},
+	year = {2012},
+	address = {New York},
+	edition = {5th ed.},
+}
+
+@book{fraile2008,
+	author = {Fraile, J.},
+	title = {M\'aquinas El\'ectricas},
+	publisher = {McGraw-Hill},
+	year = {2008},
+	address = {Madrid},
+	edition = {6th ed.},
+}
+
+@book{gourishankar1995,
+	author = {Gourishankar, V.},
+	title = {Conversión de Energía Electromecánica},
+	publisher = {Editorial Alfaomega},
+	year = {1995},
+	address = {México},
+}
+
+@book{gonen,
+	author = {Gonen, T.},
+	title = {Electrical Machines With MATLAB},
+	publisher = {CRC Press},
+	year = {2012},
+	address = {Florida},
+	edition = {2nd ed.},
+}
+
+@misc{lab3,
+  title         = "N\'ucleos Ferromagn\'eticos: Saturaci\'on e hist\'eresis, circuito equivalente y aplicaciones",
+  organization  = "Sistemas de Potencia y Máquinas Eléctricas",
+  howpublished  = "Gu\'ia de Laboratorio 3 de Máquinas Eléctricas I",
+  address       = "Costa Rica",
+  year          = "12.2020"
+}
+
+@misc{lab5,
+  title         = "El Transformador Monofásico Regulación de Tensión, Eficiencia y Polaridad",
+  organization  = "Sistemas de Potencia y Máquinas Eléctricas",
+  howpublished  = "Laboratorio 5 de Máquinas Eléctricas I",
+  address       = "Costa Rica",
+  year          = "01.2020"
+}

@@ -1,0 +1,8 @@
+
+%%% HACER INPUT A TODAS LAS SECCIONES AQUI
+\input{./secciones/00Introduccion.tex}
+\input{./secciones/01pregunta.tex}
+\input{./secciones/02pregunta.tex}
+\input{./secciones/03pregunta.tex}
+\input{./secciones/08pines.tex}
+\input{./secciones/09recomendaciones.tex}
