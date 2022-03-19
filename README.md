@@ -24,6 +24,11 @@ Esta es una lista con simbolo de menos o guion
 - Gato
 - Lora
 
+Esta es una lista numerada
+1. Perro
+2. Gato
+3. Lora
+
 ## Contenido
 - GIT
 - LATEX
