@@ -102,3 +102,41 @@ y luego:
 \begin{lstlisting}[numbers=none]
   git reset --hard <commit id>
 \end{lstlisting}
+
+
+Si queremos ver los cambios que se han hecho al repositorio sin actualizar los archivos locales utilizamos:
+\begin{lstlisting}[numbers=none]
+  git fetch
+\end{lstlisting}
+
+\section{Cap\'itulo 3: Markdown}
+Aqu\'i veremos el uso b\'asico de markdown para darle formato a los archivos .md, t\'ipicamente los README.
+
+\subsection{Saltos de l\'inea}
+Para realizar un salto de l\'inea simplemente debemos dar dos espacios seguidos de enter.
+
+\subsection{Encabezados}
+Para realizar encabezados se utiliza la almuadilla \#, seguida de un espacio, entre m\'as almoadillas se agregen m\'as pequeño es el encabezado.
+
+\subsection{Blockquotes}
+Para mostrar una cita se requiere utilizar el s\'imbolo > por cada rengl\'on de cita.
+
+\subsection{Listas}
+Las listas pueden ser numeradas o no numeradas, para usar las no numeradas se utilizan los siguientes s\'imbolos: * - +, todos estos s\'imbolos har\'an una lista con puntos gruesos como demarcadores.
+
+Para el caso de una lista n\'umerada se debe usar 1. se puede usar el mismo s\'imbolo para demarcar todos los items de la lista o bien seguir la secuencia 2. 3. ...
+
+\subsection{Enlaces e im\'agenes}
+Para agregar un enlace se hace lo siguiente:
+
+
+\begin{lstlisting}[numbers=none]
+  [nombre_que_aparece](url)
+\end{lstlisting}
+
+Para agregar una imagen debemos:
+
+
+\begin{lstlisting}[numbers=none]
+  ![nombre_imagen](url)
+\end{lstlisting}

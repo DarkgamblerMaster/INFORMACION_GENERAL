@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.23)  19 MAR 2022 10:11
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.23)  19 MAR 2022 11:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -790,27 +790,28 @@ LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
 ) [2] (./github.aux) ) 
 Here is how much of TeX's memory you used:
- 30913 strings out of 483140
- 758254 string characters out of 5965150
+ 30921 strings out of 483140
+ 758359 string characters out of 5965150
  1308366 words of memory out of 5000000
- 45441 multiletter control sequences out of 15000+600000
- 540979 words of font info for 37 fonts, out of 8000000 for 9000
+ 45448 multiletter control sequences out of 15000+600000
+ 541755 words of font info for 38 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  71i,6n,100p,1195b,1182s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.en
-c} </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx14
-40.600pk> </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec
-/ecrm1200.600pk> </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfour/jkna
-ppen/ec/ecrm1000.600pk> </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfo
-ur/jknappen/ec/ecti1440.600pk> </home/darkgambler/.texlive2019/texmf-var/fonts/
-pk/ljfour/jknappen/ec/ecbx2074.600pk> </home/darkgambler/.texlive2019/texmf-var
-/fonts/pk/ljfour/jknappen/ec/eccc1440.600pk> </home/darkgambler/.texlive2019/te
-xmf-var/fonts/pk/ljfour/jknappen/ec/ecxc1728.600pk></usr/share/texlive/texmf-di
-st/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on github.pdf (3 pages, 55439 bytes).
+ </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfou
+r/jknappen/ec/ecbx1200.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
+e/8r.enc} </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec
+/ecbx1440.600pk> </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfour/jkna
+ppen/ec/ecrm1200.600pk> </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfo
+ur/jknappen/ec/ecrm1000.600pk> </home/darkgambler/.texlive2019/texmf-var/fonts/
+pk/ljfour/jknappen/ec/ecti1440.600pk> </home/darkgambler/.texlive2019/texmf-var
+/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk> </home/darkgambler/.texlive2019/te
+xmf-var/fonts/pk/ljfour/jknappen/ec/eccc1440.600pk> </home/darkgambler/.texlive
+2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecxc1728.600pk></usr/share/texlive/t
+exmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
+Output written on github.pdf (3 pages, 67283 bytes).
 PDF statistics:
- 171 PDF objects out of 1000 (max. 8388607)
- 43 compressed objects within 1 object stream
+ 212 PDF objects out of 1000 (max. 8388607)
+ 47 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
