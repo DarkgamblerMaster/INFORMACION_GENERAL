@@ -6,7 +6,7 @@ son como los dias que paso
 sin ti, pero con mas luz.  
 
 ## Codigo 
-'''print( "hola Mundo" )'''
+```print( "hola Mundo" )```
 
 > las cosas mas bonitas le pasan 
 > a las personas mas bonitas - Satanas
