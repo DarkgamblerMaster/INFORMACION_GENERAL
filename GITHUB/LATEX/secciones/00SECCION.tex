@@ -85,3 +85,20 @@ Si se desea agregar todo lo que hay se puede usar el comando add de la siguiente
 \begin{lstlisting}[numbers=none]
   git add .
 \end{lstlisting}
+
+Si se hizo alg\'un cambio en otra cuenta asociada al branch o en la p\'agina de github que queremos actualizar en local debemos escribir lo siguiente:
+
+
+\begin{lstlisting}[numbers=none]
+  git pull
+\end{lstlisting}
+
+Si queremos revertir el pull hecho entonces primero debemos encontrar el ID commit usando:
+\begin{lstlisting}[numbers=none]
+  git log
+\end{lstlisting}
+
+y luego:
+\begin{lstlisting}[numbers=none]
+  git reset --hard <commit id>
+\end{lstlisting}
