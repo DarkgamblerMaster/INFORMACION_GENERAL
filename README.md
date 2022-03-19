@@ -17,6 +17,7 @@ sin ti, pero con mas luz.
   ------------ | -------------
   cell 1 | cell 2
   cell a | cell b
+  sumas | restas
   
 ## citas
 
