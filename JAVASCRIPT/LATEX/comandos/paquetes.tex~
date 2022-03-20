@@ -1,0 +1,155 @@
+\documentclass[10pt,letterpaper]{article}
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.7}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage[T1]{fontenc}
+\usepackage{siunitx}
+\usepackage{multirow}
+\usepackage{parskip}
+
+
+%%%%%%%% PARA DEFINIR NUESTROS PROPIOS COLORES %%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{xcolor}
+\definecolor{azulSection}{HTML}{224970}
+\definecolor{azulSubSection}{HTML}{275380}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%% PARA DEFINIR LAS CAJAS BONITAS PARA ENSERRAR COSAS %%%%%%%%%%%%%
+\usepackage[many]{tcolorbox}
+\tcbset{colback=white}
+\tcbsetforeverylayer{colframe=azulSubSection!75!white}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%%% PARA CAMBIAR LOS MARGENES DE LA PAGINA %%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{vmargin}
+\setmarginsrb           { 1.2in}  % left margin
+                         { 1.0in}  % top margin
+                         { 1.2in}  % right margin
+                         { 1.0in}  % bottom margin
+                         {  20pt}  % head height
+                         {0.25in}  % head sep
+                         {   9pt}  % foot height
+                         { 0.3in}  % foot sep
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+     
+
+%%%%%%%% PARA CAMBIAR LOS COLORES DE LAS \section y subsection etc... %%%
+\usepackage{titlesec}
+\titleformat*{\section}{\normalfont\Large\bfseries\color{azulSection}}
+\titleformat*{\subsection}{\normalfont\large\bfseries\color{azulSubSection}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%% MIRA MACHO VETE ALA MIERDA DE VERDAD
+%%%%%
+%%%%%%%% PARA PODER COLOCAR CODIGO DE PROGRAMACION EN C %%%%%%%%%%%%%%%%%
+\usepackage{listings}
+
+\lstdefinestyle{customc}{
+  belowcaptionskip=1\baselineskip,
+  breaklines=true,
+  numbers=left,
+  %stepnumber=1,
+  %frame=L,
+  xleftmargin=.05\textwidth, %xrightmargin=.1\textwidth,
+  %xleftmargin=\parindent,
+  language=C,
+  showstringspaces=false,
+  basicstyle=\fontsize{10}{10}\ttfamily,
+  keywordstyle=\color{azulSection}\bfseries,
+  commentstyle=\itshape\color{gray},
+  identifierstyle=\color{black},
+  stringstyle=\color{azulSubSection},
+  emph={FILE},
+  emphstyle={\color{azulSection}\bfseries},
+}
+
+\lstdefinelanguage{ngspice}{
+    alsodigit = {-},
+    keywords = {end,tran,ends,endc,control,model,include,title,options,param,dc},
+    sensitive=false,
+    comment=[l]{//},
+	commentstyle=\itshape\color{gray}
+}
+
+\lstset{escapechar=@,style=customc}
+
+% language definition
+\lstdefinelanguage[RISC-V]{Assembler}
+{
+  alsoletter={.}, % allow dots in keywords
+  alsodigit={0x}, % hex numbers are numbers too!
+  morekeywords=[1]{ % instructions
+    lb, lh, lw, lbu, lhu, li, b, 
+    sb, sh, sw, mv, ebreak, bnez, fld, unimp,
+    sll, slli, srl, srli, sra, srai, fmsub.d,
+    add, addi, sub, lui, auipc, fmsub.s,
+    xor, xori, or, ori, and, andi,
+    slt, slti, sltu, sltiu,
+    beq, bne, blt, bge, bltu, bgeu,
+    j, jr, jal, jalr, ret,
+    ecall, break, nop
+  },
+  morekeywords=[2]{ % sections of our code and other directives
+    .align, .ascii, .asciiz, .byte, .data, .double, .extern, .eqv,
+    .float, .globl, .half, .kdata, .ktext, .set, .space, .text, .word
+  },
+  morekeywords=[3]{ % registers
+    zero, ra, sp, gp, tp, s0, fp,
+    t0, t1, t2, t3, t4, t5, t6,
+    s1, s2, s3, s4, s5, s6, s7, s8, s9, s10, s11,
+    a0, a1, a2, a3, a4, a5, a6, a7,
+    ft0, ft1, ft2, ft3, ft4, ft5, ft6, ft7,
+    fs0, fs1, fs2, fs3, fs4, fs5, fs6, fs7, fs8, fs9, fs10, fs11,
+    fa0, fa1, fa2, fa3, fa4, fa5, fa6, fa7
+  },
+  morecomment=[l]{;},   % mark ; as line comment start
+  morecomment=[l]{\#},  % as well as # (even though it is unconventional)
+  morestring=[b]",      % mark " as string start/end
+  morestring=[b]'       % also mark ' as string start/end
+}
+
+\renewcommand{\ttdefault}{pcr}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+%%%%%%% PARA PONER IMAGENES INCRUSTADAS EN EL TEXTO %%%%%%%%%%%%%%%%%%%%%
+\usepackage{wrapfig}
+\usepackage{float}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%% PARA QUE NO INDENTE LOS PARRAFOS %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\setlength{\parindent}{0cm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%% CAMBIA DE FIGURE A FIGURA PARA QUE QUEDE EN ESPANOL %%%%%%%%%%%%%
+%%%%%%% MODIFICA LOS CAPTIONS DE LAS FIGURAS A MAS PEQUENOS %%%%%%%%%%%%%
+\renewcommand{\figurename}{Figura}
+\usepackage[margin=1pt,font={small,md},labelfont=bf]{caption}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%% PARA EVITAR QUE CORTE PALABRAS CUANDO LLEGA AL FINAL %%%%%%%%%%%%
+\usepackage[none]{hyphenat}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%%%%%%% PLANTILLA DE CAJA CON CODIGO DENTRO %%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%% QUITAR BREAKABLE Y ENHANCED SI EL CODIGO ENTRA EN UNA PAGINA %%%%
+%\begin{tcolorbox}[breakable, enhanced jigsaw, title=NOMBRE]
+%\begin{lstlisting}
+% CODIGO
+%\end{lstlisting}
+%\end{tcolorbox}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand{\refname}{Bibliografía}
+
+\renewcommand{\tablename}{Tabla}
+\usepackage{pgfplots}
