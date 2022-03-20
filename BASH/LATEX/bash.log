@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.23)  19 MAR 2022 12:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.23)  20 MAR 2022 07:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**github.tex
-(./github.tex
+**bash.tex
+(./bash.tex
 LaTeX2e <2020-02-02> patch level 2
 L3 programming layer <2020-02-14> (./comandos/paquetes.tex
 (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
@@ -704,8 +704,8 @@ Package caption Info: wrapfig package is loaded.
 Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 \langwohyphens=\language5
 LaTeX Info: Redefining \_ on input line 43.
-)) (./github.aux)
-\openout1 = `github.aux'.
+)) (./bash.aux)
+\openout1 = `bash.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
@@ -721,6 +721,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
 LaTeX Font Info:    ... okay on input line 4.
+
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count307
@@ -779,45 +780,38 @@ Package caption Info: End \AtBeginDocument code.
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./secciones/0AllSections
 .tex (./secciones/00SECCION.tex
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 4.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 5.
 
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
-) [1]
-Overfull \hbox (14.35893pt too wide) in paragraph at lines 125--126
-\T1/cmr/m/n/10 sigu-ientes sím-bo-los: * - +, to-dos es-tos sím-bo-los harán un
-a lista con pun-tos grue-sos como de-mar-cadores. 
- []
-
-[2])) (./github.bbl
-
-LaTeX Warning: Empty `thebibliography' environment on input line 3.
-
-) [3] (./github.aux) ) 
+)
+(./secciones/CODES/01variables.sh)))
+No file bash.bbl.
+[1] (./bash.aux) ) 
 Here is how much of TeX's memory you used:
- 30969 strings out of 483140
- 758869 string characters out of 5965150
- 1308366 words of memory out of 5000000
- 45496 multiletter control sequences out of 15000+600000
- 541755 words of font info for 38 fonts, out of 8000000 for 9000
+ 30848 strings out of 483140
+ 757598 string characters out of 5965150
+ 1269361 words of memory out of 5000000
+ 45371 multiletter control sequences out of 15000+600000
+ 541600 words of font info for 39 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 71i,6n,100p,1195b,1182s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfou
-r/jknappen/ec/ecbx1200.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/bas
-e/8r.enc} </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec
-/ecbx1440.600pk> </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfour/jkna
-ppen/ec/ecrm1200.600pk> </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfo
-ur/jknappen/ec/ecrm1000.600pk> </home/darkgambler/.texlive2019/texmf-var/fonts/
-pk/ljfour/jknappen/ec/ecti1440.600pk> </home/darkgambler/.texlive2019/texmf-var
-/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk> </home/darkgambler/.texlive2019/te
-xmf-var/fonts/pk/ljfour/jknappen/ec/eccc1440.600pk> </home/darkgambler/.texlive
-2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecxc1728.600pk></usr/share/texlive/t
-exmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on github.pdf (4 pages, 74181 bytes).
+ 71i,5n,100p,1193b,1174s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc} <
+/home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.6
+00pk> </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecr
+m1200.600pk> </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen
+/ec/ecrm1000.600pk> </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfour/j
+knappen/ec/ecti1440.600pk> </home/darkgambler/.texlive2019/texmf-var/fonts/pk/l
+jfour/jknappen/ec/ecbx2074.600pk> </home/darkgambler/.texlive2019/texmf-var/fon
+ts/pk/ljfour/jknappen/ec/eccc1440.600pk> </home/darkgambler/.texlive2019/texmf-
+var/fonts/pk/ljfour/jknappen/ec/ecxc1728.600pk></usr/share/texlive/texmf-dist/f
+onts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/courier/ucrr8a.pfb>
+Output written on bash.pdf (2 pages, 51114 bytes).
 PDF statistics:
- 229 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
+ 158 PDF objects out of 1000 (max. 8388607)
+ 44 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
