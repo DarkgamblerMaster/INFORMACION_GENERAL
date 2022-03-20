@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+  <meta charset = "UTF-8">
+</head>
+
+<body>
+  <h2> Primer Ejemplo </h2>
+
+  <p id="codigo"></p>
+
+  <p id="rasta"></p>
+  
+  <p id="convar"></p>
+  
+  <!-- asi se invoca un archivo javascript -->
+  <script src="ejemplo1.js"></script>  
+</body>
+
+</html>

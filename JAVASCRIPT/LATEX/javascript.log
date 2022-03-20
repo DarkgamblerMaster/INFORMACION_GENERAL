@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.23)  20 MAR 2022 09:15
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.23)  20 MAR 2022 10:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -787,20 +787,24 @@ LaTeX Font Info:    Trying to load font information for T1+pcr on input line 5.
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-(./secciones/CODES/ejemplo1.html) (./secciones/CODES/ejemplo1.js)))
+(./secciones/CODES/ejemplo1.html) (./secciones/CODES/ejemplo1.js)
+(./secciones/CODES/ejemplo2.js [1]
+LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
+(Font)              Font shape `T1/pcr/m/sl' tried instead on input line 11.
+)))
 No file javascript.bbl.
-[1] (./javascript.aux) ) 
+[2] (./javascript.aux) ) 
 Here is how much of TeX's memory you used:
- 30878 strings out of 483140
- 758031 string characters out of 5965150
- 1322374 words of memory out of 5000000
- 45399 multiletter control sequences out of 15000+600000
- 541755 words of font info for 38 fonts, out of 8000000 for 9000
+ 30910 strings out of 483140
+ 758497 string characters out of 5965150
+ 1325374 words of memory out of 5000000
+ 45426 multiletter control sequences out of 15000+600000
+ 542492 words of font info for 40 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 71i,5n,100p,1199b,1182s stack positions out of 5000i,500n,10000p,200000b,80000s
- </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljf
-our/jknappen/ec/ecbx1000.600pk>{/usr/share/texlive/texmf-dist/fonts/enc/dvips/b
-ase/8r.enc} </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/
+ 71i,6n,100p,1199b,1598s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.
+enc} </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx
+1000.600pk> </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/
 ec/ecbx1440.600pk> </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfour/jk
 nappen/ec/ecrm1200.600pk> </home/darkgambler/.texlive2019/texmf-var/fonts/pk/lj
 four/jknappen/ec/ecrm1000.600pk> </home/darkgambler/.texlive2019/texmf-var/font
@@ -808,11 +812,12 @@ s/pk/ljfour/jknappen/ec/ecti1440.600pk> </home/darkgambler/.texlive2019/texmf-v
 ar/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk> </home/darkgambler/.texlive2019/
 texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1440.600pk> </home/darkgambler/.texli
 ve2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecxc1728.600pk></usr/share/texlive
-/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb>
-Output written on javascript.pdf (2 pages, 57147 bytes).
+/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/courier/ucrro8a.pfb>
+Output written on javascript.pdf (3 pages, 70886 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 45 compressed objects within 1 object stream
+ 195 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
