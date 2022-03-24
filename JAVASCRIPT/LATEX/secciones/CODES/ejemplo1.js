@@ -1,6 +1,6 @@
 "use strict"
 
-var mensaje = "Que pedazo de hijo de puta \
+let mensaje = "Que pedazo de hijo de puta \
 eres tu cabronazo."
 
 document.getElementById("codigo").innerHTML = "Mira Macho \

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.23)  20 MAR 2022 10:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.12.23)  22 MAR 2022 06:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -705,66 +705,133 @@ Package: hyphenat 2009/09/02 v2.3c hyphenation utilities
 \langwohyphens=\language5
 LaTeX Info: Redefining \_ on input line 43.
 ))
-(./javascript.aux)
-\openout1 = `javascript.aux'.
+(/usr/share/texlive/texmf-dist/tex/latex/imakeidx/imakeidx.sty
+Package: imakeidx 2016/10/15 v1.3e Package for typesetting indices in a synchro
+nous mode
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
-LaTeX Font Info:    ... okay on input line 4.
+(/usr/share/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
 
-(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count307
-\scratchdimen=\dimen290
-\scratchbox=\box78
-\nofMPsegments=\count308
-\nofMParguments=\count309
-\everyMPshowfont=\toks45
-\MPscratchCnt=\count310
-\MPscratchDim=\dimen291
-\MPnumerator=\count311
-\makeMPintoPDFobject=\count312
-\everyMPtoPDFconversion=\toks46
-) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
-Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
-Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/share/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks45
+\XKV@tempa@toks=\toks46
 )
-(/usr/share/texlive/texmf-dist/tex/latex/grfext/grfext.sty
-Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
-Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+\XKV@depth=\count307
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/pdftexcmds/pdftexcmds.sty
-Package: pdftexcmds 2019/11/24 v0.31 Utility functions of pdfTeX for LuaTeX (HO
-)
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2019/11/07 v1.0c TeX engine tests
+))
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifluatex.sty
+Package: ifluatex 2019/10/25 v1.5 ifluatex legacy package. Use iftex instead.
 )
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2019/12/09 v1.8y multicolumn formatting (FMi)
+\c@tracingmulticols=\count308
+\mult@box=\box78
+\multicol@leftmargin=\dimen290
+\c@unbalance=\count309
+\c@collectmore=\count310
+\doublecol@number=\count311
+\multicoltolerance=\count312
+\multicolpretolerance=\count313
+\full@width=\dimen291
+\page@free=\dimen292
+\premulticols=\dimen293
+\postmulticols=\dimen294
+\multicolsep=\skip56
+\multicolbaselineskip=\skip57
+\partial@page=\box79
+\last@line=\box80
+\maxbalancingoverflow=\dimen295
+\mult@rightbox=\box81
+\mult@grightbox=\box82
+\mult@gfirstbox=\box83
+\mult@firstbox=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\@tempa=\box100
+\@tempa=\box101
+\@tempa=\box102
+\@tempa=\box103
+\@tempa=\box104
+\@tempa=\box105
+\@tempa=\box106
+\@tempa=\box107
+\@tempa=\box108
+\@tempa=\box109
+\@tempa=\box110
+\@tempa=\box111
+\@tempa=\box112
+\@tempa=\box113
+\@tempa=\box114
+\@tempa=\box115
+\@tempa=\box116
+\@tempa=\box117
+\@tempa=\box118
+\@tempa=\box119
+\@tempa=\box120
+\@tempa=\box121
+\c@minrows=\count314
+\c@columnbadness=\count315
+\c@finalcolumnbadness=\count316
+\last@try=\dimen296
+\multicolovershoot=\dimen297
+\multicolundershoot=\dimen298
+\mult@nat@firstbox=\box122
+\colbreak@box=\box123
+\mc@col@check@num=\count317
+)) (./javascript.aux)
+\openout1 = `javascript.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
+LaTeX Font Info:    ... okay on input line 8.
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count318
+\scratchdimen=\dimen299
+\scratchbox=\box124
+\nofMPsegments=\count319
+\nofMParguments=\count320
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count321
+\MPscratchDim=\dimen300
+\MPnumerator=\count322
+\makeMPintoPDFobject=\count323
+\everyMPtoPDFconversion=\toks48
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 504.
 
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
@@ -774,13 +841,26 @@ ABD: EveryShipout initializing macros
 Package pgfplots notification 'compat/show suggested version=true': you might b
 enefit from \pgfplotsset{compat=1.16} (current compat level: 1.7).
 
-\c@lstlisting=\count313
+\c@lstlisting=\count324
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 9.
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 9.
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (./javascript.toc)
+\tf@toc=\write6
+\openout6 = `javascript.toc'.
+
+
 (./comandos/Zportada.tex [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]) (./secciones/0AllSections
-.tex (./secciones/00SECCION.tex
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [1]) (./secciones/0AllSect
+ions.tex (./secciones/00SECCION.tex
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 5.
 
 
@@ -791,33 +871,43 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 (./secciones/CODES/ejemplo2.js [1]
 LaTeX Font Info:    Font shape `T1/pcr/m/it' in size <10> not available
 (Font)              Font shape `T1/pcr/m/sl' tried instead on input line 11.
+) (./secciones/CODES/backticks.js) [2]
+(./secciones/CODES/condicionales.js
+Overfull \hbox (16.54007pt too wide) in paragraph at lines 12--13
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
+][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
 )))
 No file javascript.bbl.
-[2] (./javascript.aux) ) 
+[3] (./javascript.aux) ) 
 Here is how much of TeX's memory you used:
- 30910 strings out of 483140
- 758497 string characters out of 5965150
- 1325374 words of memory out of 5000000
- 45426 multiletter control sequences out of 15000+600000
- 542492 words of font info for 40 fonts, out of 8000000 for 9000
+ 31495 strings out of 483140
+ 766152 string characters out of 5965150
+ 1367373 words of memory out of 5000000
+ 45972 multiletter control sequences out of 15000+600000
+ 550225 words of font info for 69 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
  71i,6n,100p,1199b,1598s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.
-enc} </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx
-1000.600pk> </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/
-ec/ecbx1440.600pk> </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfour/jk
-nappen/ec/ecrm1200.600pk> </home/darkgambler/.texlive2019/texmf-var/fonts/pk/lj
-four/jknappen/ec/ecrm1000.600pk> </home/darkgambler/.texlive2019/texmf-var/font
-s/pk/ljfour/jknappen/ec/ecti1440.600pk> </home/darkgambler/.texlive2019/texmf-v
-ar/fonts/pk/ljfour/jknappen/ec/ecbx2074.600pk> </home/darkgambler/.texlive2019/
-texmf-var/fonts/pk/ljfour/jknappen/ec/eccc1440.600pk> </home/darkgambler/.texli
-ve2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecxc1728.600pk></usr/share/texlive
-/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/urw/courier/ucrro8a.pfb>
-Output written on javascript.pdf (3 pages, 70886 bytes).
+enc} </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecti
+1440.600pk> </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/
+ec/ecbx2074.600pk> </home/darkgambler/.texlive2019/texmf-var/fonts/pk/ljfour/jk
+nappen/ec/eccc1440.600pk> </home/darkgambler/.texlive2019/texmf-var/fonts/pk/lj
+four/jknappen/ec/ecxc1728.600pk> </home/darkgambler/.texlive2019/texmf-var/font
+s/pk/ljfour/jknappen/ec/ecrm1000.600pk> </home/darkgambler/.texlive2019/texmf-v
+ar/fonts/pk/ljfour/jknappen/ec/ecbx1000.600pk> </home/darkgambler/.texlive2019/
+texmf-var/fonts/pk/ljfour/jknappen/ec/ecbx1440.600pk> </home/darkgambler/.texli
+ve2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1200.600pk> </home/darkgambler
+/.texlive2019/texmf-var/fonts/pk/ljfour/jknappen/ec/ecrm1728.600pk></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/urw/courier/ucrb8a.pfb></usr/share/texlive/texmf-dist/f
+onts/type1/urw/courier/ucrr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/ur
+w/courier/ucrro8a.pfb>
+Output written on javascript.pdf (5 pages, 111087 bytes).
 PDF statistics:
- 195 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 283 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  13 words of extra memory for PDF output out of 10000 (max. 10000000)
 
